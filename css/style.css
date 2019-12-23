@@ -1,0 +1,226 @@
+:root {
+    /* colores */
+    --blue: #04F89C;
+    --white: #FFFFFF;
+    --gray: #EEEEEE;
+    --dark: #313337;
+    --black: #000000;
+    --border: 1px 1px 4px 0px black;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--white);
+}
+
+nav {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+body nav div a {
+    color: var(--dark);
+    text-decoration: none;
+    margin-right: 22px;
+    font-size: 12px;
+}
+
+body nav div a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+p,
+label {
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    font-size: 12px;
+}
+
+
+/*______________________ INDEX__________________ */
+
+#hero {
+    padding: 150px 20% 2%;
+    margin-bottom: 250px;
+}
+
+#hero h1 {
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    background-image: url("../img/curve.png");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    padding: 10% 25%;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.box {
+    background-color: var(--white);
+    align-content: center;
+    margin: 10px;
+    box-shadow: var(--border);
+    padding: 3%;
+}
+
+.productos .box {
+    margin-top: -300px;
+}
+
+.box_image {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: block;
+    background-color: var(--blue);
+    margin: 5% 0%;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+body section.productos.fadeInUp a {
+    padding: 3%;
+}
+
+.button:hover {
+    background-color: #09804B;
+    transition: all 1s;
+}
+
+.productos2 {
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+
+.productos2 img {
+    display: block;
+    margin: 0% auto;
+    width: 60%;
+}
+
+.box2 {
+    padding: 5%;
+}
+
+.box2 h3,
+.box2 p {
+    margin-left: 10%;
+}
+
+.menciones {
+    padding: 0% 10% 5%;
+}
+
+.menciones h1 {
+    text-align: center;
+}
+
+.menciones .items {
+    display: flex;
+}
+
+.card {
+    box-shadow: var(--border);
+    margin: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3,
+.card p {
+    padding: 5px;
+    margin: 0%
+}
+
+
+/*______________________ PRODUCTS__________________ */
+
+.productDescription {
+    margin: auto;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+
+/*______________________ FAQS__________________ */
+
+.faqs h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/*______________________ FORM__________________ */
+
+.form-section {
+    margin: 5%;
+    padding: 5%;
+}
+
+.form {
+    padding: 5%;
+    box-shadow: var(--border);
+    display: block;
+}
+
+.form label{
+    padding-top: 3%;
+    height: 35px;
+}
+
+.form input {
+    height: 40px;
+    border-radius: 2px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+input.button {
+    border: none;
+    font-weight: bold;
+}
+
+
+/*______________________ FOOTER__________________ */
+
+footer {
+    display: flex;
+    background-color: var(--dark);
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    font-size: 12px;
+}

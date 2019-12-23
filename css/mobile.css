@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    #hero {
+        margin-bottom: 5px;
+        padding: 50px 20% 2%;
+    }
+    .productos {
+        display: inherit;
+        padding: 10% 10%;
+    }
+    .productos .box {
+        margin-top: 10px;
+    }
+    .productos2 {
+        display: inherit;
+    }
+    .menciones .items {
+        display: inherit;
+    }
+}
